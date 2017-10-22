@@ -42,3 +42,13 @@ img {
   display: inline-block;
   line-height: 1em;
 }
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-github {
+  color: white;
+}
