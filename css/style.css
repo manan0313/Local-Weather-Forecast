@@ -18,6 +18,7 @@ h2,#img {
   font-size : 50px;
   color: #C2185B;
 }
+
 img {
   opacity : 0.;
 
@@ -52,3 +53,208 @@ img {
 .fa-github {
   color: white;
 }
+.loader{
+  width:95px;
+  height:95px;
+  border-radius:50%;
+  border:0px solid;
+  margin:40px auto;
+
+  /*background:rgba(50,22,32,1);
+  color:rgba(100,45,64,1);*/
+  background:#FFC300;
+  color:#f1c40f;
+  
+  animation: fill linear 3s infinite,
+             load linear 3s infinite;
+
+  /*box-shadow:  0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;*/
+}
+
+@keyframes load{
+  0%{  box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+                   0 0 22px -3px; /*-35px -60px 1px -41px;*/
+  }
+  9%{  box-shadow:
+            /*0 -70px 10px -41px,*/0 0 22px -3px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  18%{box-shadow:0 -70px 1px -41px,
+          /*35px -60px 1px -41px,*/0 0 22px -3px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  27%{box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+          /*60px -35px 1px -41px,*/0 0 22px -3px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  36%{box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+              /*70px 0 1px -41px,*/0 0 22px -3px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  45%{box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+           /*60px 35px 1px -41px,*/0 0 22px -3px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  55%{
+    box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+           /*35px 60px 1px -41px,*/0 0 22px -3px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  64%{
+    box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+              /*0 70px 1px -41px,*/0 0 22px -3px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  
+  }
+  73%{
+    box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+          /*-35px 60px 1px -41px,*/0 0 22px -3px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  82%{
+    box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+          /*-60px 35px 1px -41px,*/0 0 22px -3px,
+               -70px 0 1px -41px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  91%{
+    box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+             /*-70px 0 1px -41px,*/0 0 22px -3px,
+           -60px -35px 1px -41px,
+           -35px -60px 1px -41px;
+  }
+  100%{
+    box-shadow:0 -70px 1px -41px,
+            35px -60px 1px -41px,
+            60px -35px 1px -41px,
+                70px 0 1px -41px,
+             60px 35px 1px -41px,
+             35px 60px 1px -41px,
+                0 70px 1px -41px,
+            -35px 60px 1px -41px,
+            -60px 35px 1px -41px,
+               -70px 0 1px -41px,
+         /*-60px -35px 1px -41px,*/0 0 22px -3px,
+           -35px -60px 1px -41px;
+  }
+}
+
+@keyframes fill{
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(30deg);
+}
+
+
